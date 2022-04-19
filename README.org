@@ -1,0 +1,16 @@
+#+title: kompassScraper.py
+#+options: toc:True
+* intro
+
+Une programme simple pour sauvegarder de l'info publique publié sur
+fr.kompass.com
+
+Dépends de ~bs4~ (Beautifulsoup4), ~requests~.
+J'utilise ~lxml~ comme parser de HTML.
+
+* Utilisation
+Un simple execution suffit.
+
+* TODO
+- [ ] Incorporer le nombre des pages automatiquement à partir du ~base_url~
+- [ ] Nommer le fichier de sortie à la fonction du page.
